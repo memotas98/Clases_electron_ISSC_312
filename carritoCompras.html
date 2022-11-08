@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/carrito.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="paginaPrincipal.html">
+    <link rel="icon" href="/img/Stonk meme.png"></link>
+    <title>Stonk</title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-xs-12">
+        <!-- Barra navegación, es de color negro-->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <!--Link a pagina de inicio-->
+                <img src="/img/Stonk meme.png" alt="Logo" >
+                <a class="navbar-brand text-white">
+                    Stonk
+                </a>
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#linksNavegacion" 
+                aria-controls="linksNavegacion" 
+                aria-expanded="false" 
+                aria-label="Mostrar menu navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Menu colapsable en caso de pantallas pequeñas-->
+                <!--El id del elemento se enlaza al boton atravez de data-bs-target-->
+                <div class="collapse navbar-collapse flex-row-reverse" id="linksNavegacion">
+                <!--El elmento ul tiene los links del menu-->
+                <div class="btn-group dropstart bg-dark rounded">
+                    <button type="button" class="btn btn-secondary dropdown-toggle bg-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                    D
+                    </button>
+                    <ul class="dropdown-menu bg-dark border border-light fluid-content rounded">
+                    <li>
+                        <a href="" class="nav-link text-white" id="mi-boton3">Cuenta</a>
+                    </li>
+                    <li>
+                        <p></p>
+                        <a href="" class="nav-link text-white" id="mi-boton4">Configuración</a>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li>
+                      <a href="/paginaPrincipal.html" class="nav-link text-white">Inicio</a>
+                    </li>
+                    <div class="dropdown-divider"></div>
+                    <li>
+                        <a href="/Pag_Principal.html" class="nav-link text-white" >Cerrar sesión</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" id="mi-boton5">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" id="mi-boton6">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+    <section class="from-register">
+        <h4>Carrito de Compras</h4>
+        <section class="container">
+            <div class="games">
+                <img src="https://cdn1.epicgames.com/offer/fn/21BR_KeyArt_EGS_Launcher_Blade_2560x1440_2560x1440-5335449297e75a6cc7c72ad01609b8e1" class="card-img-top" alt="..." style="height: 200x; width: 200px">
+                <form>
+                  <h5>Fortnite</h5>
+                  <p><h6>$ FREE</h6></p>
+                  <a href="#" class="btn btn-primary">Quitar del Carrito</a>
+                </form>
+              </div>
+              <p></p>
+              <div class="games">
+                <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/es_LA/games/switch/m/minecraft-switch/hero" class="card-img-top" alt="..." style="height: 200x; width: 200px">
+                <form>
+                  <h5>Minecraft</h5>
+                  <p><h6>$800</h6></p>
+                  <a href="#" class="btn btn-primary">Quitar del Carrito</a>
+                </form>
+              </div>
+              <p></p>
+              <div class="games">
+                <img src="https://cdn2.unrealengine.com/egs-bioshockinfinitecompleteedition-massmediagames-g1c-00-1920x1080-a0a307e7ebd6.jpg?h=720&resize=1&w=1280" class="card-img-top" alt="..." style="height: 200x; width: 200px">
+                <form>
+                  <h5>Bioshock Infinite</h5>
+                  <p><h6>$1,200</h6></p>
+                  <a href="#" class="btn btn-primary">Quitar del Carrito</a>
+                </form>
+              </div>
+        </section>
+        </div>
+        <p></p>
+            <input class="botons" type="submit" value="Comprar">
+            <p><a href="paginaPrincipal.html">Volver</a></p>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

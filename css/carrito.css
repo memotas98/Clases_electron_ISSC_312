@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-image: url(../img/fondo.jpg);
+    overflow-x: hidden ;
+}
+
+.from-register
+{
+    width: 700px;
+    background: rgb(102, 102, 102);
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.from-register h4
+{
+    font-size: 22px;
+    color: white;
+}
+
+.from-register h6
+{
+    font-size: 18px;
+    color: black;
+}
+
+.from-register h5
+{
+    font-size: 18px;
+    color: black;
+}
+
+.from-register p
+{
+    height: 40px;
+    text-align: center;
+    font-size: 17.1px;
+    line-height: 40px;
+}
+
+.from-register a 
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.from-register .botons
+{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    border: none;
+    padding: 12px; 
+    color: white;
+    margin: auto;
+    font-size: 16px;
+
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.games
+{
+    margin: 10px;
+}
+
+.container-fluid img{
+    height: 30px;
+    margin-right: 10px;
+}
